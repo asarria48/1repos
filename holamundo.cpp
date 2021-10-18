@@ -2,10 +2,9 @@
 
 int main()
 {
-  std::cout << "Hola mundo";
-  
+  std::cout << "Hola mundo\n";
   int a;
-  float x;
+  float x = 0.0;
   double y = 0.0;
   std::cout << "a = " << a << "\n";
   std::cout << "x = " << x << "\n";
