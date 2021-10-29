@@ -9,6 +9,8 @@ int main(int argc, char **argv)
 {
   //atol long; atoll; long long
   const long long N = std::atoll(argv[1]);
+  std::cout << argv[1] <<std::endl;
+  std::cout << N << std::endl;
   std::cout << largestprimedivisor(N) << std::endl;
   std::cout << sumprimefactors(N) << std::endl;
 
